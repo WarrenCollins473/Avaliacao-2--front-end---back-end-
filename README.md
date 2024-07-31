@@ -9,8 +9,8 @@ Antes de começar, você precisa ter o seguinte software instalado na sua máqui
 - **Flutter SDK**: [Instruções de Instalação](https://flutter.dev/docs/get-started/install)
 - **Dart SDK**: Incluído com o Flutter SDK
 - **Android Studio**: Inclui o Android SDK e o Android Virtual Device (AVD)
-- **Xcode**: Necessário para desenvolvimento iOS (apenas em macOS)
-- **Visual Studio Code** (opcional, mas recomendado)
+- **Visual Studio Code**
+- **Docker (back-end)
 
 Certifique-se de adicionar o Flutter ao PATH do seu sistema.
 
@@ -23,10 +23,12 @@ Certifique-se de adicionar o Flutter ao PATH do seu sistema.
    cd seu-repositorio
 2. Instale as dependências:
    flutter pub get
-3. Conecte um dispositivo físico ou inicie um emulador.
-4. Verifique se o dispositivo está conectado e reconhecido:
+3. na pasta service, execulte o comando:
+   docker-compose up -d
+4. Conecte um dispositivo físico ou inicie um emulador.
+5. Verifique se o dispositivo está conectado e reconhecido:
    flutter devices
-5. Execute o projeto:
+6. Execute o projeto:
    flutter run
 
 ## Bibliotecas Usadas
