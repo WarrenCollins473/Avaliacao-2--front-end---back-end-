@@ -10,7 +10,7 @@ Antes de começar, você precisa ter o seguinte software instalado na sua máqui
 - **Dart SDK**: Incluído com o Flutter SDK
 - **Android Studio**: Inclui o Android SDK e o Android Virtual Device (AVD)
 - **Visual Studio Code**
-- **Docker (back-end)
+- **Docker** (back-end)
 
 Certifique-se de adicionar o Flutter ao PATH do seu sistema.
 
